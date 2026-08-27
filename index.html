@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="wei 的项目公开介绍：给人和 LLM 共用的世界与知识建模。" />
+  <title>wei · 项目</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Sans+SC:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <p class="eyebrow"><a href="https://github.com/2883772-prog">wei</a> · 项目索引</p>
+      <h1>给人和 LLM 共用的<br />世界与知识建模</h1>
+      <p class="lede">
+        用接近自然语言的中间层，描述结构、规则和变化意图。
+        一部分只描述、不执行；一部分在 Python 里真的跑起来。
+      </p>
+    </header>
+
+    <section aria-labelledby="world-heading">
+      <h2 id="world-heading">主线 · 世界建模</h2>
+      <div class="grid">
+        <article class="card featured">
+          <div class="card-meta">
+            <span class="name">wel</span>
+            <span class="tag">设计语言</span>
+          </div>
+          <h3>World Expression Language</h3>
+          <p>
+            介于自然语言和代码之间：描述世界状态与规则，解析、校验、序列化，
+            故意不执行。给人与 LLM 共用的设计语言。
+          </p>
+        </article>
+
+        <article class="card featured">
+          <div class="card-meta">
+            <span class="name">WEL-on-Python</span>
+            <span class="tag">可执行运行时</span>
+          </div>
+          <h3>同一套世界观，跑在 Python 里</h3>
+          <p>
+            用 Python 写法则（Type）和实体（Node），command / query 真的会执行；
+            Owns 管组成树，Rel 管可见性；外面世界通过「启动者」进入。
+            是 wel 的可运行宿主方向。
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">
+            <span class="name">UniNode</span>
+            <span class="tag">前身</span>
+          </div>
+          <h3>统一节点 DSL</h3>
+          <p>声明 + 检查、不执行。wel 的概念前身。</p>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">
+            <span class="name">world-model-schema</span>
+            <span class="tag">早期实验</span>
+          </div>
+          <h3>世界模型 schema</h3>
+          <p>关于世界模型定义与校验的早期尝试。</p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="tools-heading">
+      <h2 id="tools-heading">旁边 · 实用工具</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="card-meta">
+            <span class="name">MagicNotes</span>
+            <span class="tag">WPF</span>
+          </div>
+          <h3>本地 Markdown 知识库</h3>
+          <p>稳定节点 ID，给人与 AI 共同维护的索引。</p>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">
+            <span class="name">notes3</span>
+            <span class="tag">WPF</span>
+          </div>
+          <h3>DocNotes</h3>
+          <p>文章内部知识切片查看器，MagicNotes 的小兄弟。</p>
+        </article>
+
+        <article class="card">
+          <div class="card-meta">
+            <span class="name">xtquant</span>
+            <span class="tag">A 股</span>
+          </div>
+          <h3>自选 · K 线 · 缠论</h3>
+          <p>基于 XtQuant / MiniQMT，界面用 PySide6 与 ECharts。</p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="forks-heading">
+      <h2 id="forks-heading">也在看 · 开源</h2>
+      <ul class="forks">
+        <li>
+          <a href="https://github.com/2883772-prog/MediaCrawler">MediaCrawler</a>
+          <span>多平台媒体爬虫</span>
+        </li>
+        <li>
+          <a href="https://github.com/2883772-prog/danghuangshang">danghuangshang</a>
+          <span>「AI 朝廷」多智能体</span>
+        </li>
+        <li>
+          <a href="https://github.com/2883772-prog/skills">skills</a>
+          <span>Anthropic skills 参考</span>
+        </li>
+        <li>
+          <a href="https://github.com/2883772-prog/andrej-karpathy-skills">andrej-karpathy-skills</a>
+          <span>Karpathy 风格工作流参考</span>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>
+        这是公开索引，源码仓库未必公开。
+        <a href="https://github.com/2883772-prog">github.com/2883772-prog</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
